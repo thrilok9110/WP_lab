@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px 80px;
+    background-color: #f4f4f4;
+}
+
+/* Horizontal line */
+.line {
+    height: 6px;
+    background-color: gray;
+    border: none;
+    margin: 20px 0;
+}
+
+/* Header section */
+.header {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Links */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Section titles */
+.section-title {
+    background-color: #DAA520;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+/* Content text */
+.content {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* Resume container */
+.resume {
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+}
